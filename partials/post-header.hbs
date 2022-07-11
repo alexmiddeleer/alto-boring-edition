@@ -6,22 +6,19 @@
             <a class="post-title-link" href="{{url}}">{{title}}</a>
         </h2>
     {{/if}}
-    {{^is "page"}}
-        {{#unless hide_meta}}
-            <div class="post-meta">
-                <span class="post-meta-item post-meta-date">
-                    <time datetime="{{date format="YYYY-MM-DD"}}">{{date published_at}}</time>
-                </span>
-                <span class="post-meta-item post-meta-length">
-                    {{reading_time}}
-                </span>
+    {{#unless hide_meta}}
+        <div class="post-meta">
+            <span class="post-meta-item post-meta-date">
+                Last updated <time datetime="{{date format="YYYY-MM-DD"}}">{{date updated_at}}</time>
+            </span>
+            {{^is "page"}}
                 {{#if tags}}
                     <span class="post-meta-item post-meta-tags">
                         {{#foreach tags}}<a class="post-tag post-tag-{{slug}}" href="{{url}}"
                                 title="{{name}}">{{name}}</a>{{/foreach}}
                     </span>
                 {{/if}}
-            </div>
-        {{/unless}}
-    {{/is}}
+            {{/is}}
+        </div>
+    {{/unless}}
 </header>
