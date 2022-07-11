@@ -2,6 +2,15 @@
 
 <div class="content-area">
     <main class="site-main">
+        {{#get "pages"}}
+            {{#foreach pages}}
+                {{#if featured}}
+                    <div class="container large">
+                        {{content}}
+                    </div>
+                {{/if}}
+            {{/foreach}}
+        {{/get}}
         <div class="post-feed">
             {{#foreach posts}}
                 {{> "loop"}}
