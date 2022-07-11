@@ -6,12 +6,11 @@ Fork features/focus:
 
 * Remove cruft that wouldn't make sense on a professional profile page (e.g. reading time on blog posts).
 * Simple featured posts. Use them to welcome visitors to your site or post important messages, that's it.
+* Pages show "updated at" dates so if you forget to update your "About me site" for a few years, there's no confusion.
 
 
 --------------------------------
 (Standard alto readme below here)
-
-* Pages show "updated at" dates so if you forget to update your "About me site" for a few years, there's no confusion.
 
 A clean, minimalist theme featuring a light and dark mode. Launch your online publications with flair. Completely free and fully responsive, released under the MIT license.
 
