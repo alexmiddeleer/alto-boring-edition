@@ -1,5 +1,7 @@
 .featured-posts {
-    margin: 45px 0;
+    margin: 45px 0 0;
+    padding-bottom: 45px;
+    border-bottom: 1px solid var(--mid-gray-color);
 }
 
 .featured-posts .post {
