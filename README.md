@@ -1,6 +1,7 @@
-# Alto (Pro Profile Fork)
 
-(This is a fork of Ghost's alto theme, for use as a simple professional profile. It is aimed towards people who code for a living.)
+# Alto boring edition - a simple fork for profesional profiles
+
+This is a fork of Ghost's alto theme, for use as a simple professional profile. It is aimed towards people who code for a living who just want something simple and clean.
 
 Fork features/focus:
 
@@ -10,7 +11,8 @@ Fork features/focus:
 
 
 --------------------------------
-(Standard alto readme below here)
+
+# Alto 
 
 A clean, minimalist theme featuring a light and dark mode. Launch your online publications with flair. Completely free and fully responsive, released under the MIT license.
 
