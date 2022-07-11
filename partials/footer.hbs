@@ -7,8 +7,6 @@
         <nav class="footer-nav">
             {{navigation type="secondary"}}
         </nav>
-    {{else}}
-        {{> logo}}
     {{/if}}
 
     <div class="footer-social">
@@ -22,6 +20,12 @@
             <a class="footer-social-item footer-social-item-twitter" href="{{twitter_url @site.twitter}}"
                 target="_blank" rel="noopener" aria-label="Twitter">
                 <i class="icon icon-twitter"></i>
+            </a>
+        {{/if}}
+        {{#if @custom.github_username}}
+            <a class="footer-social-item footer-social-item-github" href="https://github.com/{{@custom.github_username}}"
+                target="_blank" rel="noopener" aria-label="Github">
+                <i class="icon icon-github-circle"></i>
             </a>
         {{/if}}
         <a class="footer-social-item footer-social-item-rss"

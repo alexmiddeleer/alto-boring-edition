@@ -1,5 +1,5 @@
 {
-    "name": "alto",
+    "name": "alto-boring-edition",
     "description": "A Ghost theme",
     "version": "1.0.0",
     "engines": {
@@ -63,15 +63,17 @@
                 "default": true,
                 "group": "post"
             },
-            "show_author": {
+            "show_author_global": {
                 "type": "boolean",
-                "default": true,
-                "group": "post"
+                "default": false
             },
             "show_related_posts": {
                 "type": "boolean",
                 "default": true,
                 "group": "post"
+            },
+            "github_username": {
+                "type": "text"
             }
         }
     },
